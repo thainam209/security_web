@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+learnhub-backend/node_modules/
+learnhub-frontend/node_modules/
+
+# Environment variables
+.env
+learnhub-backend/.env
+learnhub-frontend/.env
+*.env
+
+# Build outputs
+dist/
+build/
+learnhub-backend/dist/
+learnhub-frontend/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files (old test directory)
+test/
+
+# Design files (optional - you may want to keep these)
+*.png
+*.jpg
+*.jpeg
+*.gif
+!**/public/**/*.png
+!**/public/**/*.jpg
+!**/public/**/*.jpeg
+
+# Temporary files
+*.tmp
+*.temp
+
